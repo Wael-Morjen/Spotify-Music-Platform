@@ -5,7 +5,7 @@ interface BoxProps {
     className?: string
 }
 
-const BOX = ({
+const Box = ({
     children,
     className
 }: BoxProps ) => {
@@ -25,4 +25,4 @@ const BOX = ({
     );
 }
  
-export default BOX;
+export default Box;

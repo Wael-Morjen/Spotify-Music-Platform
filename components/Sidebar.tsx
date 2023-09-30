@@ -44,7 +44,8 @@ const Sidebar = ({
                     bg-black
                     h-full
                     w-[300px]
-                    p-2
+                    py-2
+                    pl-2
                 "
             >
                 <Box>
@@ -69,7 +70,7 @@ const Sidebar = ({
                     <Library />
                 </Box>
             </div>
-            <main className="h-full flex-1 overflow-y-hidden py-2">
+            <main className="h-full flex-1 overflow-y-hidden py-2 pr-2 ml-2">
                 {children}
             </main>
         </div>
