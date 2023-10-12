@@ -1,5 +1,7 @@
 'use client';
 
+import Modal from "@/components/Modal";
+
 import { useState, useEffect } from "react";
 
 const ModalProvider = () => {
@@ -15,7 +17,7 @@ const ModalProvider = () => {
 
     return (
         <>
-            Modals!
+            <Modal />
         </>
     );
 }
